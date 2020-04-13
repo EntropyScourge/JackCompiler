@@ -1,0 +1,15 @@
+class thing {
+
+
+    field int a, b;
+    
+    method void CallSub(int x, char y, boolean h, int l, otherType q) {
+
+        var int u, v;
+//gegdzg
+        let u = 6;
+        if (u < 10) {
+            do CallAnotherSub(u,v); //fsafasf
+        }
+    }
+}

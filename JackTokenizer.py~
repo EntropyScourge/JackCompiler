@@ -1,0 +1,30 @@
+class JackTokenizer:
+    def __init__(self, jackInput):
+        self.jackInput = jackInput
+        self.keywords = ["class","constructor","function","method","field","static","var","int","char","boolean","void","true","false","null","this","let","do","if","else","while","return"]
+        self.symbols = ["{","}","(",")","[","]",".",",",";","+","-","*","/","&","|","<",">","=","-"]
+        self.tokenList = []
+    def hasMoreTokens(token):
+       
+
+    def advance():
+        for ch in self.jackInput:
+            if ch in self.symbols:
+                self.tokenList.append(ch)
+            elif     
+
+
+
+    def tokenType():
+
+    def keyWord():
+
+    def symbol():
+
+    def identifier():
+
+    def intVal():
+
+    def stringVal():
+
+
